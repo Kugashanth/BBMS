@@ -172,15 +172,15 @@ DB_NAME=blood_bank
 ## 🐛 Troubleshooting
 
 ### Common Issues
-1. **Database Connection Error**
+1. Database Connection Error
    - Check database credentials in `config/db.php`
    - Ensure MySQL service is running
 
-2. **Session Issues**
+2. Session Issues
    - Verify session configuration in PHP
    - Check file permissions for session storage
 
-3. **AJAX Not Working**
+3. AJAX Not Working
    - Check browser console for JavaScript errors
    - Verify file paths for AJAX endpoints
 
@@ -198,16 +198,6 @@ DB_NAME=blood_bank
 - Add comments for complex logic
 - Test thoroughly before submitting PR
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 📞 Support
-
-For support and queries:
-- **Email**: support@bloodbank.lk
-- **Phone**: +94 11 234 5678
-- **Issues**: Use GitHub Issues for bug reports
 
 ## 🙏 Acknowledgments
 
