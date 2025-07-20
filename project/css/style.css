@@ -1,0 +1,37 @@
+/* Content Adjustment */
+.content {
+  margin-left: 60px; /* Align content with sidebar */
+  padding: 20px 30px 10px 20px;
+  width: calc(100% - 120px);
+  transition: margin-left 0.3s ease-in-out;
+  margin-top: 80px; /* To avoid being overlapped by navbar */
+  overflow-y: hidden;
+}
+
+/* Content Adjustment */
+.content2 {
+  margin-left: 58px;
+  width: calc(100% - 60px);
+  transition: margin-left 0.3s ease-in-out;
+
+}
+/* Content adjustment when sidebar expands */
+.content {
+  transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth transition */
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  /* background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');  */
+}
+
+.sidebar:hover ~ .content {
+  margin-left: 250px; /* Adjust when sidebar expands */
+  width: calc(100% - 300px);
+}
+/* Content adjustment when sidebar expands */
+.content2 {
+  transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth transition */
+}
+
+.sidebar:hover ~ .content2 {
+  margin-left: 250px; /* Adjust when sidebar expands */
+  width: calc(100% - 250px);
+}

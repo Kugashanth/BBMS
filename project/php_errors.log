@@ -1,0 +1,16 @@
+[16-May-2025 13:41:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project\navbar.php:5) in C:\xampp\htdocs\project\config\function.php on line 27
+[16-May-2025 13:41:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project\navbar.php:5) in C:\xampp\htdocs\project\config\function.php on line 27
+[16-May-2025 13:44:15 Europe/Berlin] PHP Warning:  Undefined array key "hospital_id" in C:\xampp\htdocs\project\hos_campRegistration.php on line 38
+[16-May-2025 13:44:15 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\navbar.php on line 3
+[16-May-2025 13:45:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\hos_campRegistration.php on line 11
+[16-May-2025 13:45:01 Europe/Berlin] PHP Warning:  Undefined array key "hospital_id" in C:\xampp\htdocs\project\hos_campRegistration.php on line 51
+[16-May-2025 13:45:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\navbar.php on line 3
+[16-May-2025 13:45:16 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\hos_campRegistration.php on line 11
+[16-May-2025 13:45:16 Europe/Berlin] PHP Warning:  Undefined array key "hospital_id" in C:\xampp\htdocs\project\hos_campRegistration.php on line 51
+[16-May-2025 13:45:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_sql() in C:\xampp\htdocs\project\hos_campRegistration.php:98
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\project\hos_campRegistration.php on line 98
+[16-May-2025 13:45:20 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\hos_campRegistration.php on line 11
+[16-May-2025 13:45:20 Europe/Berlin] PHP Warning:  Undefined array key "hospital_id" in C:\xampp\htdocs\project\hos_campRegistration.php on line 51
+[16-May-2025 13:45:20 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\navbar.php on line 3

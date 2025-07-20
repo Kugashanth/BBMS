@@ -1,0 +1,130 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+body {
+    background-image: url('../img/login-bg.jpg');
+    background-size:  cover;
+    background-position:  center;
+    background-repeat:  no-repeat;
+    height: 100vh; /* Covers full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color */
+}
+
+h2, p, label {
+    font-weight: bold;
+    color: black; /* Ensures readability */
+}
+
+.container {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+    backdrop-filter: blur(10px); /* Adds a blur effect for better readability */
+}
+
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+p.subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+    border-color: #FF4D4D;
+    outline: none;
+    box-shadow: 0px 0px 6px rgba(255, 77, 77, 0.4);
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    background: #FF4D4D;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #D63030;
+}
+
+/* Link Styling */
+p {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+p a {
+    color: #FF4D4D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+        padding: 25px;
+    }
+}
